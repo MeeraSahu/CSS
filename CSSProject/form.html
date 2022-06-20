@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Layout</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+
+    </head>
+    <body>
+        <div id="outside">
+            <form>
+                <h1>application for permission</h1>
+                <p><b>Note:</b>Form is to be completed at least 21 days prior to date</p>
+                <fieldset>
+                    <legend>Personal Details</legend>
+    <!-- ----------------personal information------------------------------. -->
+                    <div>
+                        <label for="Name" >Name:</label>
+                        <input id="Name" type="text" placeholder="Enter name here">
+                    </div>
+                    <div>
+                        <label for="Address">Address:</label>
+                        <input id="Address" type="text" placeholder="Enter Address here">
+                    </div>
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input id="Email" type="email" placeholder="Enter email here">
+                    </div>
+                    <div>
+                        <label for="Phone Number">Phone Number:</label>
+                        <input id="Phone Number" type="tel" placeholder="Enter 10 digit number">
+                    </div>
+    <!-- ------------------Radio Buttons-------------------------------- -->
+                    <div>
+                        Gender <br>
+                        <label for="Male">Male:</label>
+                        <input id="Male" type="radio" name="radio" checked>
+                        <label for="Female">Female:</label>
+                        <input id="Female" type="radio" name="radio">
+                    </div>
+                    <div>
+                        <label for="date">Event Day</label>
+                        <input id="date" type="date" name="date">                    
+                    </div>
+                </fieldset>
+    <!-- ------------------Checkboxes-------------------------------- -->
+                <fieldset>
+                    Check All That Apply:<br><br>
+                    <input type="checkbox" name="tattoo">I have tattoos and/or piercingsg<br>
+                    <input type="checkbox" name="age">I am more than 2 years older than my daughter<br>
+                    <input type="checkbox" name="vehical">I own a panel van or V8 ute<br>
+                    <input type="checkbox" name="work">I work full-time<br>
+                    <input type="checkbox" name="status">My parents are rich<br>
+                    <input type="checkbox" name="location">Is the date at a well lit public location <br>           
+                </fieldset>
+    <!-- -----------------Dropdown menus--------------------------------- -->
+                <fieldset>
+                    <div>
+                        <label for="Political">Political Persuasion:</label>
+                        <select id="Political">
+                            <option value="left">Left Wing</option>
+                            <option value="right">right Wing</option>
+                            <option value="conservative">conservative</option>
+                        </select><br>
+                    </div>
+                    <div>
+                        <label for="Education">Education Level Completed:</label>
+                        <select id="Education">
+                            <optgroup label="Education level">
+                                <option value="University">University</option>
+                                <option value="College">College</option>
+                                <option value="Secondary">Secondary</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </fieldset>
+    <!-- --------------------Text Areas------------------------------ -->
+                <fieldset>
+                    <legend>contact</legend>
+                    <textarea name="Contact" placeholder="Enter the contacts" rows="4" cols="150">Enter the contacts</textarea>
+                </fieldset>
+
+                <div>
+                    <button type="submit">submit Application</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

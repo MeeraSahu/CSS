@@ -1,0 +1,45 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    text-transform:capitalize;
+    vertical-align: top;
+}
+form{
+    background-color: white;
+    border: 1px solid rgb(92, 91, 91);
+    border-radius: 1em;
+    padding: 20 60;
+}
+#outside{
+    background-color: rgb(180, 180, 94);
+    padding: 5%;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+fieldset{
+    margin: 10px;
+    border-radius: 1em;
+
+}
+legend{
+    font-weight: 700;
+}
+button{
+    font-weight: bold;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: rgb(152, 152, 63);
+}
+div + div {
+    margin-top: 1em;
+}
+/*
+input, textarea {
+    width: 200px;
+}*/
