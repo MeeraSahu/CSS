@@ -16,34 +16,58 @@
                 <fieldset>
                     <legend>Personal Details</legend>
     <!-- ----------------personal information------------------------------. -->
-                    <div>
-                        <label for="Name" >Name:</label>
-                        <input id="Name" type="text" placeholder="Enter name here">
-                    </div>
-                    <div>
-                        <label for="Address">Address:</label>
-                        <input id="Address" type="text" placeholder="Enter Address here">
-                    </div>
-                    <div>
-                        <label for="Email">Email:</label>
-                        <input id="Email" type="email" placeholder="Enter email here">
-                    </div>
-                    <div>
-                        <label for="Phone Number">Phone Number:</label>
-                        <input id="Phone Number" type="tel" placeholder="Enter 10 digit number">
-                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="Name" >Name:</label>
+                            </td>
+                            <td>
+                                <input id="Name" type="text" placeholder="Enter name here">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Address">Address:</label>
+                            </td>
+                            <td>
+                                <input id="Address" type="text" placeholder="Enter Address here">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Email">Email:</label>
+                            </td>
+                            <td>
+                                <input id="Email" type="email" placeholder="Enter email here">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="date">Event Day</label>
+                            </td>
+                            <td>
+                                <input id="date" type="date" name="date">                    
+                            </td>
+                        </tr>
+                    </table>
     <!-- ------------------Radio Buttons-------------------------------- -->
-                    <div>
-                        Gender <br>
-                        <label for="Male">Male:</label>
-                        <input id="Male" type="radio" name="radio" checked>
-                        <label for="Female">Female:</label>
-                        <input id="Female" type="radio" name="radio">
-                    </div>
-                    <div>
-                        <label for="date">Event Day</label>
-                        <input id="date" type="date" name="date">                    
-                    </div>
+                    <table>
+                        <tr>Gender</tr>
+                        <tr>
+                            <td>
+                                <label for="Male">Male:</label>
+                            </td>
+                            <td>
+                                <input id="Male" type="radio" name="radio" checked>
+                            </td>
+                            <td>
+                                <label for="Female">Female:</label>
+                            </td>
+                            <td>
+                                <input id="Female" type="radio" name="radio">
+                            </td>
+                        </tr>
+                    </table>
                 </fieldset>
     <!-- ------------------Checkboxes-------------------------------- -->
                 <fieldset>
@@ -57,29 +81,39 @@
                 </fieldset>
     <!-- -----------------Dropdown menus--------------------------------- -->
                 <fieldset>
-                    <div>
-                        <label for="Political">Political Persuasion:</label>
-                        <select id="Political">
-                            <option value="left">Left Wing</option>
-                            <option value="right">right Wing</option>
-                            <option value="conservative">conservative</option>
-                        </select><br>
-                    </div>
-                    <div>
-                        <label for="Education">Education Level Completed:</label>
-                        <select id="Education">
-                            <optgroup label="Education level">
-                                <option value="University">University</option>
-                                <option value="College">College</option>
-                                <option value="Secondary">Secondary</option>
-                            </optgroup>
-                        </select>
-                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="Political">Political Persuasion:</label>
+                            </td>
+                            <td>
+                                <select id="Political">
+                                    <option value="left">Left Wing</option>
+                                    <option value="right">right Wing</option>
+                                    <option value="conservative">conservative</option>
+                                </select><br>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Education">Education Level Completed:</label>
+                            </td>
+                            <td>
+                                <select id="Education">
+                                    <optgroup label="Education level">
+                                        <option value="University">University</option>
+                                        <option value="College">College</option>
+                                        <option value="Secondary">Secondary</option>
+                                    </optgroup>
+                                </select>
+                        </td>
+                        </tr>
+                    </table>
                 </fieldset>
     <!-- --------------------Text Areas------------------------------ -->
                 <fieldset>
                     <legend>contact</legend>
-                    <textarea name="Contact" placeholder="Enter the contacts" rows="4" cols="150">Enter the contacts</textarea>
+                    <textarea name="Contact" placeholder="Enter the contacts" rows="4" cols="50">Enter the contacts</textarea>
                 </fieldset>
 
                 <div>
