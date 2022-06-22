@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    color: rgb(191, 176, 223);
+    background-color: rgb(116, 75, 82);
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: ".";
+    clear: both;
+    visibility: hidden;
+}
+header {
+    color: rgb(98, 12, 144);
+    border: solid;
+    width: 960px;
+    padding: 20px 0;
+    float: left;
+    margin-bottom: 10px;
+}
+nav{
+    border: solid;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 200px 0;
+}
+section{
+    border: solid;
+    float: left;
+    margin-bottom: 10px;
+    width: 750px;
+    padding: 200px 0;
+}
+footer{
+    border: solid;
+    width: 960px;
+    padding: 20px 0;
+    float: left;
+    margin-bottom: 10px;
+
+}
